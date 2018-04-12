@@ -12,7 +12,7 @@ import Signup from './components/Signup.react';
 import Main from './components/Main.react';
 
 // Insert your app's keys here:
-Parse.initialize('APPLICATION_ID', 'JAVASCRIPT_KEY');
+Parse.initialize('cryptonsignals', 'kayskjbfaevbfilquwebfsndfsjdfnsdkjnfkajdnfkad');
 
 var NotFound = React.createClass({
   render: function () {
