@@ -9,10 +9,6 @@
     "server": "browser-sync start --server public --files public/**/*",
     "start": "npm run watch & npm run server"
   },
-   "engines": {
-  "node": "0.10.41",
-  "npm": "1.4.29"
-},
   "author": "enu-kuro",
   "license": "MIT",
   "dependencies": {
