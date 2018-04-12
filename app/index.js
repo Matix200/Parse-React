@@ -13,6 +13,7 @@ import Main from './components/Main.react';
 
 // Insert your app's keys here:
 Parse.initialize('cryptonsignals', 'kayskjbfaevbfilquwebfsndfsjdfnsdkjnfkajdnfkad');
+Parse.serverURL = 'https://cryptonsignals.herokuapp.com/parse';
 
 var NotFound = React.createClass({
   render: function () {
